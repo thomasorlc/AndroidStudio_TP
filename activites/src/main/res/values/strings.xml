@@ -3,4 +3,5 @@
     <string name="nombre_1">nombre_1</string>
     <string name="nombre_2">nombre_2</string>
     <string name="calculer">calculer</string>
+    <string name="you_click_me">Vous avez cliqué %d fois</string>
 </resources>
