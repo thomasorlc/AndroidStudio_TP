@@ -9,23 +9,24 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.gmail.ourliac.thomas.neighbors.NavigationListener
 import com.gmail.ourliac.thomas.neighbors.R
 import com.gmail.ourliac.thomas.neighbors.adapters.ListNeighborHandler
 import com.gmail.ourliac.thomas.neighbors.data.NeighborRepository
 import com.gmail.ourliac.thomas.neighbors.models.Neighbor
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.mbds.myapplication.adapters.ListNeighborsAdapter
 
 class ListNeighborsFragment : Fragment(), ListNeighborHandler {
     private lateinit var recyclerView: RecyclerView
+    private lateinit var addNeighbor: FloatingActionButton
 
-    /**
-     * Fonction permettant de définir une vue à attacher à un fragment
-     */
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         val view = inflater.inflate(R.layout.list_neighbors_fragment, container, false)
         recyclerView = view.findViewById(R.id.neighbors_list)
         recyclerView.layoutManager = LinearLayoutManager(context)
@@ -35,6 +36,12 @@ class ListNeighborsFragment : Fragment(), ListNeighborHandler {
                 DividerItemDecoration.VERTICAL
             )
         )
+
+        addNeighbor = view.findViewById(R.id.add_button)
+        addNeighbor.setOnClickListener {
+            (activity as? NavigationListener)?.showFragment(AddNeighborFragment())
+        }
+
         return view
     }
 
@@ -70,4 +77,9 @@ class ListNeighborsFragment : Fragment(), ListNeighborHandler {
         recyclerView.adapter = adapter
     }
 
+    fun getString(string: String) {
+        activity?.let {
+            (activity as? NavigationListener)?.getString(string)
+        }
+    }
 }

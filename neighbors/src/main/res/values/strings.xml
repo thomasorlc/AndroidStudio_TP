@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Neighbors</string>
-    <string name="imageTextInputEditText">Image</string>
-    <string name="nomTextInputEditText">Nom</string>
-    <string name="telTextInputEditText">Téléphone</string>
-    <string name="websiteTextInputEditText">Website</string>
-    <string name="adresseTextInputEditText">Adresse</string>
-    <string name="aboutTextInputEditText">A propos de moi</string>
+    <string name="image">Image</string>
+    <string name="nom">Nom</string>
+    <string name="tel">Téléphone</string>
+    <string name="website">Website</string>
+    <string name="adresse">Adresse</string>
+    <string name="about">A propos de moi</string>
+    <string name="add_neighbor">add_neighbor</string>
+
 
 </resources>

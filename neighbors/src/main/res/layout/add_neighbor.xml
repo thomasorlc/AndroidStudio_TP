@@ -16,27 +16,27 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/imageTextInputLayout"
+        android:id="@+id/imageLyt"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imageTextInputEditText"
-        app:layout_constraintEnd_toEndOf="@+id/imageTextInputEditText"
-        app:layout_constraintStart_toStartOf="@+id/imageTextInputEditText"
-        app:layout_constraintTop_toTopOf="@+id/imageTextInputEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toTopOf="@+id/image"
         tools:layout_editor_absoluteX="16dp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/imageTextInputEditText"
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="@string/imageTextInputEditText"
+        android:hint="@string/image"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,154 +44,154 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/nomTextInputLayout"
+        android:id="@+id/nomLyt"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/nomTextInputEditText"
-        app:layout_constraintEnd_toEndOf="@+id/nomTextInputEditText"
-        app:layout_constraintStart_toStartOf="@+id/nomTextInputEditText"
-        app:layout_constraintTop_toTopOf="@+id/nomTextInputEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/nom"
+        app:layout_constraintEnd_toEndOf="@+id/nom"
+        app:layout_constraintStart_toStartOf="@+id/nom"
+        app:layout_constraintTop_toTopOf="@+id/nom"
         tools:layout_editor_absoluteX="16dp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/nomTextInputEditText"
+        android:id="@+id/nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="@string/nomTextInputEditText"
+        android:hint="@string/nom"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageTextInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/image" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/telTextInputLayout"
+        android:id="@+id/telLyt"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/telTextInputEditText"
-        app:layout_constraintEnd_toEndOf="@+id/telTextInputEditText"
-        app:layout_constraintStart_toStartOf="@+id/telTextInputEditText"
-        app:layout_constraintTop_toTopOf="@+id/telTextInputEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/tel"
+        app:layout_constraintEnd_toEndOf="@+id/tel"
+        app:layout_constraintStart_toStartOf="@+id/tel"
+        app:layout_constraintTop_toTopOf="@+id/tel"
         tools:layout_editor_absoluteX="16dp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/telTextInputEditText"
+        android:id="@+id/tel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="@string/telTextInputEditText"
+        android:hint="@string/tel"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nomTextInputEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/nom" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/websiteTextInputLayout"
+        android:id="@+id/websiteLyt"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/websiteTextInputEditText"
-        app:layout_constraintEnd_toEndOf="@+id/websiteTextInputEditText"
-        app:layout_constraintStart_toStartOf="@+id/websiteTextInputEditText"
-        app:layout_constraintTop_toTopOf="@+id/websiteTextInputEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/website"
+        app:layout_constraintEnd_toEndOf="@+id/website"
+        app:layout_constraintStart_toStartOf="@+id/website"
+        app:layout_constraintTop_toTopOf="@+id/website"
         tools:layout_editor_absoluteX="16dp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/websiteTextInputEditText"
+        android:id="@+id/website"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="@string/websiteTextInputEditText"
+        android:hint="@string/website"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telTextInputEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/tel" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/adresseTextInputLayout"
+        android:id="@+id/adresseLyt"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/adresseTextInputEditText"
-        app:layout_constraintEnd_toEndOf="@+id/adresseTextInputEditText"
-        app:layout_constraintStart_toStartOf="@+id/adresseTextInputEditText"
-        app:layout_constraintTop_toTopOf="@+id/adresseTextInputEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/adresse"
+        app:layout_constraintEnd_toEndOf="@+id/adresse"
+        app:layout_constraintStart_toStartOf="@+id/adresse"
+        app:layout_constraintTop_toTopOf="@+id/adresse"
         tools:layout_editor_absoluteX="16dp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/adresseTextInputEditText"
+        android:id="@+id/adresse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="@string/adresseTextInputEditText"
+        android:hint="@string/adresse"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/websiteTextInputEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/website" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/aboutTextInputLayout"
+        android:id="@+id/aboutLyt"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/aboutTextInputEditText"
-        app:layout_constraintEnd_toEndOf="@+id/aboutTextInputEditText"
-        app:layout_constraintStart_toStartOf="@+id/aboutTextInputEditText"
-        app:layout_constraintTop_toTopOf="@+id/aboutTextInputEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/about"
+        app:layout_constraintEnd_toEndOf="@+id/about"
+        app:layout_constraintStart_toStartOf="@+id/about"
+        app:layout_constraintTop_toTopOf="@+id/about"
         tools:layout_editor_absoluteX="16dp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/aboutTextInputEditText"
+        android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="108dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:hint="@string/aboutTextInputEditText"
+        android:hint="@string/about"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/adresseTextInputEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/adresse" />
 
     <Button
-        android:id="@+id/button_save"
+        android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enregistrer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aboutTextInputEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/about" />
 
 
 
