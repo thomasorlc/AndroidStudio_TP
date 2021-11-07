@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Neighbors</string>
-    <string name="dialog_fire_missiles">dialog_fire_missiles</string>
-    <string name="fire">fire</string>
-    <string name="cancel">cancel</string>
+    <string name="imageTextInputEditText">Image</string>
+    <string name="nomTextInputEditText">Nom</string>
+    <string name="telTextInputEditText">Téléphone</string>
+    <string name="websiteTextInputEditText">Website</string>
+    <string name="adresseTextInputEditText">Adresse</string>
+    <string name="aboutTextInputEditText">A propos de moi</string>
+
 </resources>

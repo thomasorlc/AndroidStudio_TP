@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/imageTextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageTextInputEditText"
+        app:layout_constraintEnd_toEndOf="@+id/imageTextInputEditText"
+        app:layout_constraintStart_toStartOf="@+id/imageTextInputEditText"
+        app:layout_constraintTop_toTopOf="@+id/imageTextInputEditText"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/imageTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/imageTextInputEditText"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nomTextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/nomTextInputEditText"
+        app:layout_constraintEnd_toEndOf="@+id/nomTextInputEditText"
+        app:layout_constraintStart_toStartOf="@+id/nomTextInputEditText"
+        app:layout_constraintTop_toTopOf="@+id/nomTextInputEditText"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nomTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/nomTextInputEditText"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageTextInputLayout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/telTextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/telTextInputEditText"
+        app:layout_constraintEnd_toEndOf="@+id/telTextInputEditText"
+        app:layout_constraintStart_toStartOf="@+id/telTextInputEditText"
+        app:layout_constraintTop_toTopOf="@+id/telTextInputEditText"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/telTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/telTextInputEditText"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomTextInputEditText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/websiteTextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/websiteTextInputEditText"
+        app:layout_constraintEnd_toEndOf="@+id/websiteTextInputEditText"
+        app:layout_constraintStart_toStartOf="@+id/websiteTextInputEditText"
+        app:layout_constraintTop_toTopOf="@+id/websiteTextInputEditText"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/websiteTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/websiteTextInputEditText"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telTextInputEditText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/adresseTextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/adresseTextInputEditText"
+        app:layout_constraintEnd_toEndOf="@+id/adresseTextInputEditText"
+        app:layout_constraintStart_toStartOf="@+id/adresseTextInputEditText"
+        app:layout_constraintTop_toTopOf="@+id/adresseTextInputEditText"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/adresseTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/adresseTextInputEditText"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/websiteTextInputEditText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/aboutTextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/aboutTextInputEditText"
+        app:layout_constraintEnd_toEndOf="@+id/aboutTextInputEditText"
+        app:layout_constraintStart_toStartOf="@+id/aboutTextInputEditText"
+        app:layout_constraintTop_toTopOf="@+id/aboutTextInputEditText"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/aboutTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/aboutTextInputEditText"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adresseTextInputEditText" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutTextInputEditText" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
